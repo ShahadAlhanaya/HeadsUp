@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ORB_OF_DISCORD_LIGHT">#A75FD6</color>
+    <color name="ORB_OF_DISCORD">#7027A0</color>
+    <color name="ORB_OF_DISCORD_DARK">#4E1771</color>
+    <color name="LAGO_BLUE_LIGHT">#80DADF</color>
+    <color name="LAGO_BLUE">#1DB9C3</color>
+    <color name="LAGO_BLUE_DARK">#0F7278</color>
+    <color name="BLACK">#FF000000</color>
+    <color name="WHITE">#FFFFFFFF</color>
+    <color name="PINK_PERENNIAL_LIGHT">#ED83DE</color>
+    <color name="PINK_PERENNIAL">#C32BAD</color>
+    <color name="PINK_PERENNIAL_DARK">#8E107B</color>
+    <color name="CRAZY_PINK_LIGHT">#F4A8CB</color>
+    <color name="CRAZY_PINK">#F56FAD</color>
+    <color name="CRAZY_PINK_DARK">#C3417D</color>
+    <color name="RED">#BF2B2F</color>
+    <color name="GREEN">#2BA532</color>
+
+</resources>

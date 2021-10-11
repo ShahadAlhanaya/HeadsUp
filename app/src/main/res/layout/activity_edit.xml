@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/progressBarText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="loading..."
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_secondary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/progressBar3" />
+
+    <LinearLayout
+        android:id="@+id/choose_city_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+
+
+        <EditText
+            android:id="@+id/edt_nameEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:ems="10"
+            android:hint="Enter name"
+            android:inputType="text"
+            android:maxLength="16"
+            android:padding="10dp"
+            android:textColorHint="#c7c7c7" />
+
+        <EditText
+            android:id="@+id/edt_taboo1Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:ems="10"
+            android:hint="Enter location"
+            android:inputType="text"
+            android:maxLength="16"
+            android:padding="10dp"
+            android:textColorHint="#c7c7c7" />
+
+        <EditText
+            android:id="@+id/edt_taboo2Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:ems="10"
+            android:hint="Enter location"
+            android:inputType="text"
+            android:maxLength="16"
+            android:padding="10dp"
+            android:textColorHint="#c7c7c7" />
+
+        <EditText
+            android:id="@+id/edt_taboo3Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:ems="10"
+            android:hint="Enter location"
+            android:inputType="text"
+            android:maxLength="16"
+            android:padding="10dp"
+            android:textColorHint="#c7c7c7" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/RED"
+                android:text="Delete"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/design_default_color_primary"
+                android:text="Save"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
