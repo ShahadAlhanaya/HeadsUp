@@ -33,8 +33,8 @@ class CelebritiesAdapter(private val celebritiesList: ArrayList<Celebrities.Cele
     override fun onBindViewHolder(holder: CelebrityViewHolder, position: Int) {
         val celebrityName = celebritiesList[position].name
         val taboo1 = celebritiesList[position].taboo1
-        val taboo2 = celebritiesList[position].taboo1
-        val taboo3 = celebritiesList[position].taboo1
+        val taboo2 = celebritiesList[position].taboo2
+        val taboo3 = celebritiesList[position].taboo3
         val pk = celebritiesList[position].pk
         holder.celebrityNameTextView.text = celebrityName
         holder.taboo1TextView.text = taboo1

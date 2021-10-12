@@ -112,6 +112,7 @@ class MainActivity : AppCompatActivity() {
                     taboo3EditText.text.clear()
                     Toast.makeText(applicationContext, "Celebrity Added!", Toast.LENGTH_SHORT).show()
                     bottomSheetDialog.dismiss()
+                    getCelebritiesList()
                 })
             }
         }
@@ -142,6 +143,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        getCelebritiesList()
+            getCelebritiesList()
     }
 }
